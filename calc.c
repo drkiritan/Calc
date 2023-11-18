@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
+    system("clear");
     printf("\x1b[32m");
     putchar('\n');
     puts("Initializing...");
