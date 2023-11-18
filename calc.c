@@ -16,12 +16,12 @@ int main(void)
     puts("8357837E817592FA82DF82AA88AB82A282E68176...");
     putchar('\n');
     putchar('\n');
-    puts(" ■■■       ■");
-    puts("■   ■  ■■  ■  ■■■");
-    puts("■        ■ ■ ■");
-    puts("■      ■■■ ■ ■");
-    puts("■   ■ ■  ■ ■ ■");
-    puts(" ■■■   ■■■ ■  ■■■ ■");
+    puts("  \x1b[42m      \x1b[49m              \x1b[42m  \x1b[49m");
+    puts("\x1b[42m  \x1b[49m      \x1b[42m  \x1b[49m    \x1b[42m    \x1b[49m    \x1b[42m  \x1b[49m    \x1b[42m      \x1b[49m");
+    puts("\x1b[42m  \x1b[49m                \x1b[42m  \x1b[49m  \x1b[42m  \x1b[49m  \x1b[42m  \x1b[49m");
+    puts("\x1b[42m  \x1b[49m            \x1b[42m      \x1b[49m  \x1b[42m  \x1b[49m  \x1b[42m  \x1b[49m");
+    puts("\x1b[42m  \x1b[49m      \x1b[42m  \x1b[49m  \x1b[42m  \x1b[49m    \x1b[42m  \x1b[49m  \x1b[42m  \x1b[49m  \x1b[42m  \x1b[49m");
+    puts("  \x1b[42m      \x1b[49m      \x1b[42m      \x1b[49m  \x1b[42m  \x1b[49m    \x1b[42m      \x1b[49m  \x1b[42m  \x1b[49m");
     putchar('\n');
     putchar('\n');
     puts("8357837E815B817581638163");
