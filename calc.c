@@ -2,6 +2,7 @@
 
 int main(void)
 {
+    printf("\x1b[32m");
     putchar('\n');
     puts("Initializing...");
     putchar('\n');
@@ -28,6 +29,7 @@ int main(void)
     puts("81CD8145814D29");
     puts("816381638176...");
     putchar('\n');
+    printf("\x1b[0m");
 
     return 0;
 }
