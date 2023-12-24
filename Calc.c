@@ -17,7 +17,7 @@ void slowMsg(char* msg, int wait_time)
 
 void* startMusic(void *arg)
 {
-    system("mpg123 -q Calc.mp3");
+    system("mpg123 -q ./music/Calc.mp3");
     return NULL;
 }
 
@@ -102,7 +102,7 @@ int main(void)
     usleep(4000000);
     slowMsg("  僕らが出会えたあの夏の日まで", 30000);
 
-    usleep(6000000);
+    usleep(12000000);
     putchar('\n');
     usleep(3000000);
     putchar('\n');
@@ -110,6 +110,103 @@ int main(void)
     putchar('\n');
     usleep(3000000);
     putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+
+    slowMsg("巡り会いも結局運命で", 30000);
+    usleep(1900000);
+    slowMsg("  全ては筋書き通りだって", 30000);
+    usleep(1900000);
+    putchar('\n');
+    slowMsg("都合良く考えられたら", 30000);
+    usleep(1905000);
+    slowMsg("  寂しくはないのかな", 30000);
+    usleep(1900000);
+    putchar('\n');
+    putchar('\n');
+    slowMsg("弾き出した答えの全てが", 30000);
+    usleep(1850000);
+    slowMsg("  一つ二つ矛盾を伴って", 30000);
+    usleep(1840000);
+    putchar('\n');
+    slowMsg("向こう側へと続く道を", 30000);
+    usleep(1800000);
+    slowMsg("  消し去ってゆく", 30000);
+    usleep(1400000);
+    putchar('\n');
+    putchar('\n');
+    putchar('\n');
+    slowMsg("いつか", 95000);
+    usleep(470000);
+    slowMsg("君に捧げた歌", 30000);
+    slowMsg("  ", 1830000);
+    slowMsg("今じゃ哀しいだけの愛の歌", 30000);
+    usleep(5000000);
+    putchar('\n');
+    slowMsg("風に吹かれ飛んでゆけ", 30000);
+    usleep(4000000);
+    slowMsg("  僕らが出会えたあの夏の日まで", 30000);
+
+    usleep(12000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+
+    slowMsg("過去も未来も無くなれば", 30000);
+    slowMsg("  ", 1900000);
+    slowMsg("僕も自由に飛び立てるかな", 30000);
+    usleep(5000000);
+    putchar('\n');
+    slowMsg("感情一つ消せるのなら", 30000);
+    usleep(4000000);
+    slowMsg("  「好き」を消せば楽になれるかな", 30000);
+    usleep(4900000);
+    putchar('\n');
+    putchar('\n');
+
+    slowMsg("君の耳を、目を、心を", 30000);
+    slowMsg("  ", 2000000);
+    slowMsg("通り抜けたモノ全てを", 30000);
+    usleep(5000000);
+    putchar('\n');
+    slowMsg("いつか知ることが出来たら", 30000);
+    usleep(4500000);
+    slowMsg("  次はちゃんと君を愛せるかな", 30000);
+
+    usleep(12000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+    usleep(3000000);
+    putchar('\n');
+
+    puts("Music : OneRoom");
+    puts("Created by ttt");
+    puts("2023/12/24");
+
+    putchar('\n');
+    putchar('\n');
+
     printf("\x1b[0m");
     pthread_join(music_thread, NULL);
     return 0;
@@ -119,3 +216,4 @@ int main(void)
 // 83 8B 83 4A 81 75 91 8A 95 CF 82 ED 82 E7 82 B8 96 A2 97 FB 82 AA 82 DC 82 B5 82 A2 82 C8 81 76
 // 83 57 83 7E 81 75 92 FA 82 DF 82 AA 88 AB 82 A2 82 E6 81 76
 // 83 57 83 7E 81 5B 81 75 81 63 81 63 28 81 4C 81 45 81 CD 81 45 81 4D 29 81 63 81 63 81 76
+// 1b = 0.346820809248555 s
